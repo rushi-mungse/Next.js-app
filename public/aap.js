@@ -1,1 +1,0 @@
-alert("Enter your age");
