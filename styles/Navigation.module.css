@@ -3,25 +3,37 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: beige;
+  background-color: #1a303c;
+  height: 70px;
+  position: fixed;
+  width: 100%;
 }
 
 .nav > ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 90%;
 }
 
 .nav > ul > li {
   list-style: none;
   margin: 10px;
-  font-size: 18px;
-  color: rgb(30, 58, 150);
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261, #4ce01f);
+  background-size: 100%;
+  font-size: 22px;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  letter-spacing: 1.5px;
 }
 
 .nav > ul > li:hover {
-  color: rgb(0, 60, 255);
+  background-image: linear-gradient(45deg, #b4f54b, #b3522b, #c3e01f);
 }

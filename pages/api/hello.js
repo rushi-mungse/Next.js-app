@@ -1,5 +1,13 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import DbConnected from "../../utils/database";
+import Article from "../../Models/Articles";
 
-export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+DbConnected();
+
+export default async function article(req, res) {
+  try {
+    const data = await Article.find();
+    return res.status(200).json(data);
+  } catch (error) {
+    return res.status(401).json({ errors: "Internal server error." });
+  }
 }
