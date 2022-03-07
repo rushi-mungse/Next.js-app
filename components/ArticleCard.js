@@ -1,9 +1,9 @@
 import Link from "next/link";
 import styles from "../styles/ArticleCard.module.css";
 
-const ArticleCard = ({ key, data }) => {
+const ArticleCard = ({ data }) => {
   return (
-    <div className={styles.articleCard} key={key}>
+    <div className={styles.articleCard}>
       <Link href={`/article/${data._id}`}>
         <h1 className={styles.articleTopic}>{data.articleTopic}</h1>
       </Link>
