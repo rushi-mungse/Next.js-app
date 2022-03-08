@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "../styles/ArticleCard.module.css";
-
 const ArticleCard = ({ data }) => {
   return (
     <div className={styles.articleCard}>

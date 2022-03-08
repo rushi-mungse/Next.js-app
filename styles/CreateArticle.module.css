@@ -1,0 +1,45 @@
+.createArticlePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #162b35;
+}
+.inputBoxWrap {
+  border: 2px solid #0e232c;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.7);
+  height: 500px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputBoxWrap h1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261, #4ce01f);
+  background-size: 100%;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.btn {
+  margin-top: 10px;
+  padding: 5px 15px;
+  color: #0e0d0d;
+  font-size: 18px;
+  background-color: #07ce53;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #026227;
+}

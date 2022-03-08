@@ -1,0 +1,30 @@
+.inputBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.inputBox label {
+  font-size: 20px;
+  color: #f3ec78;
+  margin-bottom: 10px;
+}
+.inputBox textarea {
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+  font-size: 18px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261, #4ce01f);
+  background-size: 100%;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  caret-color: #fd0048;
+  border: 1px solid #f3ec78;
+  outline: none;
+}
