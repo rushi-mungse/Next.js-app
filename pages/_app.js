@@ -1,4 +1,4 @@
-import Navigation from "../components/Navigation";
+import Navigation from "../layouts/Navigation";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -11,3 +11,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+//Consolas, Menlo,

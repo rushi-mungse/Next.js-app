@@ -1,0 +1,25 @@
+.homeWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #cdcdcd;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #162b35;
+}
+.loading h1 {
+  font-size: 50px;
+}
+.homePage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 30px;
+  margin-top: 100px;
+}

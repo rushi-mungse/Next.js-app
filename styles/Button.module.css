@@ -1,0 +1,17 @@
+.btn {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: #313cd4;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+.btn:hover {
+  background-color: #0915bd;
+}
+.text_wrap {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
