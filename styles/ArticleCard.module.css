@@ -1,5 +1,5 @@
 .articleCard {
-  background: rgb(30, 52, 63);
+  background: rgb(255, 255, 255);
   width: 500px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
   padding: 20px;
@@ -7,20 +7,21 @@
   height: 225px;
   margin: 20px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
+
+.articleCard:hover {
+  background-color: rgb(216, 216, 216);
+}
+
 .articleTopic {
-  background-color: #f3ec78;
-  background-image: linear-gradient(45deg, #f3ec78, #af4261, #4ce01f);
-  background-size: 100%;
-  background-clip: initial;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   margin-bottom: 20px;
   font-size: 24px;
   cursor: pointer;
+  color: #000;
 }
+
 .articleData {
   display: flex;
   align-items: center;
@@ -30,15 +31,18 @@
   bottom: 10px;
   width: 90%;
 }
+
 .articleSummary {
-  color: rgb(96, 196, 66);
+  color: rgb(0, 0, 0);
   letter-spacing: 0.5px;
   font-size: 18px;
 }
+
 .articleCreatedAt {
-  color: #f3ec78;
+  color: #0a15bd;
   margin-right: 40px;
 }
+
 .articleAuthor {
-  color: #1fd0e0;
+  color: #0a15bd;
 }
